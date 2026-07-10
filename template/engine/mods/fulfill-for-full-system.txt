@@ -47,6 +47,15 @@ kernel-initramfs-create
 
 
 ##
+## ## Bootloader
+##
+
+core-bootloader-package-install
+
+
+
+
+##
 ## ## Live Boot
 ##
 
