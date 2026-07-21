@@ -41,7 +41,7 @@
 
 ## Environment
 
-* Ubuntu 26.04
+* `Ubuntu 26.04`
 
 
 
@@ -59,13 +59,13 @@ sudo apt-get install git make
 
 ## Clone
 
-run to clone [anduinos-iso-builder-respin-gnome-shell-with-calamares](https://github.com/samwhelp/anduinos-iso-builder-respin-gnome-shell-with-calamares)
+Run to clone [anduinos-iso-builder-respin-gnome-shell-with-calamares](https://github.com/samwhelp/anduinos-iso-builder-respin-gnome-shell-with-calamares)
 
 ``` sh
 git clone https://github.com/samwhelp/anduinos-iso-builder-respin-gnome-shell-with-calamares
 ```
 
-run to change dir `anduinos-iso-builder-respin-gnome-shell-with-calamares`
+Run to change dir `anduinos-iso-builder-respin-gnome-shell-with-calamares`
 
 ``` sh
 cd anduinos-iso-builder-respin-gnome-shell-with-calamares
@@ -86,19 +86,19 @@ cd anduinos-iso-builder-respin-gnome-shell-with-calamares
 
 ## Help
 
-run
+Run
 
 ``` sh
 make
 ```
 
-or run
+Or run
 
 ``` sh
 make help
 ```
 
-show
+Show
 
 ```
 Usage:
@@ -130,7 +130,7 @@ make prepare
 
 ## Build
 
-We only need to execute the following command to create an ISO file.
+Only need to execute the following command to create an ISO file.
 
 ``` sh
 make build
