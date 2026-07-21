@@ -18,10 +18,9 @@
 
 * [Combination](#combination)
 * [Environment](#environment)
-* [Prepare](#prepare)
+* [Start](#start)
 * [Clone](#clone)
 * [Usage](#usage)
-* [Howto](#howto)
 * [Config Files](#config-files)
 * [Package Install List](#package-install-list)
 * [Keybind](#keybind)
@@ -52,7 +51,7 @@
 
 
 
-## Prepare
+## Start
 
 Open Terminal , and run to install [git](https://packages.ubuntu.com/resolute/git) and [make](https://packages.ubuntu.com/resolute/make)
 
@@ -82,7 +81,15 @@ cd anduinos-iso-builder-respin-gnome-shell-with-calamares
 
 ## Usage
 
-### help
+* [Help](#help)
+* [Prepare](#prepare)
+* [Build](#build)
+* [Clean](#clean)
+
+
+
+
+## Help
 
 run
 
@@ -115,9 +122,7 @@ Example:
 
 
 
-## Howto
-
-## Howto / Prepare
+## Prepare
 
 > Run the following command to install the packages required to create an ISO file.
 
@@ -128,7 +133,7 @@ make prepare
 
 
 
-## Howto / Build
+## Build
 
 We only need to execute the following command to create an ISO file.
 
@@ -139,9 +144,9 @@ make build
 
 
 
-## Howto / Clean
+## Clean
 
-Run to clean.
+Run to clean up previous builds.
 
 ``` sh
 make clean
